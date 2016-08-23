@@ -1,0 +1,44 @@
+footer {
+  	clear: both;
+}
+a:link {
+	color: #FF0000;
+} 
+a:visited {
+	color: #00FF00;
+}
+a:hover {
+  	text-decoration: blink;
+}
+header{
+	text-align:center;
+	font-size: 26pt;
+}
+h1{
+	font-family: Impact;
+	font-style: bold;
+	text-align:center;
+	border-bottom: 4px dotted #000000;
+}
+h2{
+	font-family: Impact;
+	text-align:center;
+}
+.highlight{
+	color:yellow;
+}
+html {
+    background-color: #ffb84d
+}
+ul{
+	font-family: cursive;
+	font-style: italic;
+}
+li{
+	color:green;
+}
+p{
+	font-family: arial;
+	font-size: 14pt;
+}
+
