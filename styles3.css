@@ -9,6 +9,7 @@ a:visited {
 }
 a:hover {
   	text-decoration: blink;
+  	background-color: #111;
 }
 header{
 	text-align:center;
@@ -25,20 +26,57 @@ h2{
 	text-align:center;
 }
 .highlight{
-	color:yellow;
+	color:hotpink;
 }
-html {
-    background-color: #ffb84d
+
+
+p{
+	font-family: lucida;
+	font-size: 14pt;
+	font-weight: bold;
+
 }
-ul{
-	font-family: cursive;
-	font-style: italic;
+
+html { 
+  background: url(images/download.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.floatleft{
+	float: left;
+    margin: 0 0 10px 10px;
 }
 li{
+	font-family: cursive;
+	font-style: italic;
+	font-weight: bold;
 	color:green;
 }
-p{
-	font-family: arial;
-	font-size: 14pt;
+
+#menu {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
 
